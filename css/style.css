@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+button {
+  margin: 10px;
+}
+
+.container {
+  max-width: 1230px;
+  min-width: 991px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+#form {
+  display: grid;
+  justify-items: start;
+  row-gap: 20px;
+  margin-bottom: 30px;
+  min-width: 400px;
+  border-radius: 10px;
+  border: 2px solid black;
+  padding: 10px;
+  margin: 10px;
+}
+
+.alert {
+  color: red;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
