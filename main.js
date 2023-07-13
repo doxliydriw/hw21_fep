@@ -61,7 +61,7 @@ function validateFname(el, message) {
 function validateLname(el, message) {
     // console.log(el)
     if (el.value !== "") {
-        res.push(['Your surename', el.value]);
+        res.push(['Your surname', el.value]);
         ShowSuccess(el, message);
         return true;
     } else {
